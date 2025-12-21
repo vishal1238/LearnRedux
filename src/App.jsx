@@ -6,10 +6,23 @@
 // Reducer is usually in a formate of swtich statement, that swtiches between all possible Actions(Cases) and then manipulates the Store data based on action. When a reducer data changes within the redux, the properties in your components are changed and then the re-render occurs.
 
 
+// Why Redux?
 
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// Without Redux:
+
+// Props drilling 
+
+// Hard to manage shared state
+
+// With Redux:
+
+// Single source of truth
+
+// Predictable state changes
+
+// Easy debugging
+
+
 import './App.css'
 import Navbar from './components/Navbar'
 import { useSelector, useDispatch } from 'react-redux'
